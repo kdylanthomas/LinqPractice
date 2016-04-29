@@ -12,41 +12,28 @@ namespace BasicEntityFrameworkDataAccess
     {
         static void Main(string[] args)
         {
-            Database.SetInitializer<MyStoreContext>(null);
+            Database.SetInitializer<ChinookContext>(null);
 
-            MyStoreContext dbContext = new MyStoreContext();
-            var employees = dbContext.Employee.Where(a => a.City == "Nashville");
+            ChinookContext dbContext = new ChinookContext();
+            var artists = dbContext.Artist.Where(a => a.Name.Contains("Sabbath"));
             Console.WriteLine(Environment.NewLine);
-            Console.Write("EMPLOYEES FROM NASHVILLE" );
+            Console.Write("ARTIST WITH PRESLEY IN NAME");
             Console.WriteLine(Environment.NewLine);
-            foreach (var employee in employees)
-             {
-                Console.Write(employee.Name + " " + employee.City);
-             }
-            Console.WriteLine(Environment.NewLine);
-
-            Console.Write("EMPLOYEE DEPARTMENT LISTING");
-
-            Console.WriteLine(Environment.NewLine);
-
-            //join data from two tables
-            var employeeDetails = (from emp in dbContext.Employee
-                                   join dept in dbContext.Department
-                                   on emp.DepartmentId equals dept.DepartmentId
-                                   orderby dept.Name
-                                   select new   //roll join results into a new object
-                                   {
-                                       Name = emp.Name,
-                                       Description = emp.Description,
-                                       DepartmentName = dept.Name,
-                                       SupervisorName=dept.SupervisorTitle
-                                   }).ToList();
-
-            foreach (var details in employeeDetails)
+            foreach (var artist in artists)
             {
-                Console.Write("Employee Name: " + details.Name + " Department Name: " + details.DepartmentName + " Supervisor Title: " + details.SupervisorName);
-                Console.WriteLine(Environment.NewLine);
+                Console.Write(artist.Name );
             }
+           
+            ////COMPLETE THESE Queries in Linq. 
+
+            //1 Bring back 100 artist and order by name
+
+            //2.Is there a genre for TV show?
+
+            //3. List the artist on a particular album (hint, will need to create a new model and set up in Chinook context
+            //4. List all of the albums by your favorite artist.
+            //5. List the address for the followg customers (
+            //6. List the total bill and mailing address for the following customers with an id of (10, 38, 57)
 
             Console.ReadLine();
 

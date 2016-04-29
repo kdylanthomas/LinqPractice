@@ -5,12 +5,10 @@ using System.Web;
 
 namespace BasicEntityFrameworkDataAccess.Models
 {
-    public class Department
+    public class Genre
     {
-        public int DepartmentId { get; set; }
+        public int GenreId { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
-        public string SupervisorTitle { get; set; }
 
     }
 }
