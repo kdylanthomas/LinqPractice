@@ -15,25 +15,25 @@ namespace BasicEntityFrameworkDataAccess
             Database.SetInitializer<ChinookContext>(null);
 
             ChinookContext dbContext = new ChinookContext();
-            var artists = dbContext.Artist.Where(a => a.Name.Contains("Sabbath"));
+            var artistSearch = "Sabbath";
+            var artists = dbContext.Artist.Where(a => a.Name.Contains(artistSearch));
             Console.WriteLine(Environment.NewLine);
-            Console.Write("ARTIST WITH PRESLEY IN NAME");
+            Console.Write("ARTIST WITH " + artistSearch.ToUpper()+ " IN NAME");
             Console.WriteLine(Environment.NewLine);
             foreach (var artist in artists)
             {
                 Console.Write(artist.Name );
             }
            
-            ////COMPLETE THESE Queries in Linq. 
-
-            //1 Bring back 100 artist and order by name
-
-            //2.Is there a genre for TV show?
-
-            //3. List the artist on a particular album (hint, will need to create a new model and set up in Chinook context
+            ////COMPLETE THESE Queries in Linq. You will need to modify your connection string to point to your database
+            
+            //1  Bring back 100 artist and order by name
+            //2. Is there a genre for TV show?
+            //3. List the artist on a particular album you like(hint, will need to create a new model and set up in Chinook context)
             //4. List all of the albums by your favorite artist.
-            //5. List the address for the followg customers (
-            //6. List the total bill and mailing address for the following customers with an id of (10, 38, 57)
+            //5. List the total bill and mailing address for the following customers with an id of (10, 38, 57)
+            //6. Create a class that will hold information regarding concerts you would like to attend. Create a list containing
+            //your concerts of choice. Set up several properties. Query your favorite concert list. Something like List<AwesomeConcert> ...
 
             Console.ReadLine();
 
