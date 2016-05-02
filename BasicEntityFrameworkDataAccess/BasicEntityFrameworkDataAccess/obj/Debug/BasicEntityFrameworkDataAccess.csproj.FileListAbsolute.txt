@@ -18,3 +18,13 @@ C:\linq\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\
 C:\linq\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\EntityFramework.xml
 C:\linq\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\linq\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\obj\Debug\BasicEntityFrameworkDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\BasicEntityFrameworkDataAccess.exe.config
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\obj\Debug\BasicEntityFrameworkDataAccess.exe
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\obj\Debug\BasicEntityFrameworkDataAccess.pdb
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\BasicEntityFrameworkDataAccess.exe
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\BasicEntityFrameworkDataAccess.pdb
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\BasicEntityFrameworkDataAccess\BasicEntityFrameworkDataAccess\obj\Debug\BasicEntityFrameworkDataAccess.csprojResolveAssemblyReference.cache

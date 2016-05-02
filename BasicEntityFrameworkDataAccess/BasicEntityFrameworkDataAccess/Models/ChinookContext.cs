@@ -10,6 +10,8 @@ namespace BasicEntityFrameworkDataAccess.Models
     {
         public DbSet<Artist> Artist { get; set; }
         public DbSet<Genre> Genre { get; set; }
+        public DbSet<Album> Album { get; set; }
+        public DbSet<Customer> Customer { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -17,10 +19,17 @@ namespace BasicEntityFrameworkDataAccess.Models
                 .ToTable("Artist")
                 .HasKey(c => c.ArtistId);
 
-
             modelBuilder.Entity<Genre>()
                 .ToTable("Genre")
                 .HasKey(c => c.GenreId);
+
+            modelBuilder.Entity<Album>()
+                .ToTable("Album")
+                .HasKey(c => c.AlbumId);
+
+            modelBuilder.Entity<Customer>()
+                .ToTable("Customer")
+                .HasKey(c => c.CustomerId);
         }
 
 

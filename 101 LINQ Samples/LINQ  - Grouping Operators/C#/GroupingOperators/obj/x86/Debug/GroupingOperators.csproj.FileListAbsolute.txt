@@ -4,3 +4,5 @@ C:\Users\v-damdec\Downloads\Archived Samples Gallery\CSharpSamples\Grouped LINQ 
 C:\Users\v-damdec\Downloads\Archived Samples Gallery\CSharpSamples\Grouped LINQ Samples\LINQ over DataSets\GroupingOperators\GroupingOperators\obj\x86\Debug\GroupingOperators.exe
 C:\Users\v-damdec\Downloads\Archived Samples Gallery\CSharpSamples\Grouped LINQ Samples\LINQ over DataSets\GroupingOperators\GroupingOperators\obj\x86\Debug\GroupingOperators.pdb
 C:\Users\v-damdec\Downloads\Archived Samples Gallery\CSharpSamples\Grouped LINQ Samples\LINQ over DataSets\GroupingOperators\GroupingOperators\bin\Debug\Customers.xml
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\101 LINQ Samples\LINQ  - Grouping Operators\C#\GroupingOperators\obj\x86\Debug\GroupingOperators.exe
+C:\Users\dylan\Documents\Visual Studio 2015\Projects\LinqPractice\101 LINQ Samples\LINQ  - Grouping Operators\C#\GroupingOperators\obj\x86\Debug\GroupingOperators.pdb

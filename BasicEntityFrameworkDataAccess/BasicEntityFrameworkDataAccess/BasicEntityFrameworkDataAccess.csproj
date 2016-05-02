@@ -52,6 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Album.cs" />
+    <Compile Include="Models\Concert.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\ChinookContext.cs" />
